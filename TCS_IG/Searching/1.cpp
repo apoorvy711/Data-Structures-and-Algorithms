@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+/*
+//SEARCH IN 2D MATRIX
+bool search_el(vector<vector<int>>&matrix, int target){
+    int n=matrix.size();
+    int m=matrix[0].size();
+    int i=0;
+    while(i<n){
+        if(matrix[i][0]<=target && matrix[i][m-1]>=target){
+            for(int j=0;j<m;j++){
+                if(matrix[i][j]==target){
+                    return true;
+                }
+            }
+        }
+        i++;
+    }
+    return false;
+}
+
+int main(){
+    vector<vector<int>>matrix={{1,3,5},{7,10,11},{11,16,20}};
+    int target=3;
+    bool ans=search_el(matrix,target);
+    cout<<ans;
+    return 0;
+}
+
+*/
+
